@@ -73,6 +73,9 @@ module.exports = {
         'shimmer': 'shimmer 2.5s linear infinite',
         'float-fade': 'float-fade 10s ease-in-out infinite',
         'text-glow': 'text-glow 4s ease-in-out infinite',
+        'swing': 'swing 8s ease-in-out infinite',
+        'sway': 'sway 6s ease-in-out infinite',
+        'drift': 'drift 20s ease-in-out infinite',
       },
       keyframes: {
         fadeIn: {
@@ -118,6 +121,20 @@ module.exports = {
         'text-glow': {
           '0%, 100%': { 'text-shadow': '0 0 10px rgba(255, 255, 255, 0.3)' },
           '50%': { 'text-shadow': '0 0 20px rgba(255, 255, 255, 0.6)' },
+        },
+        'swing': {
+          '0%, 100%': { transform: 'rotate(0deg)' },
+          '50%': { transform: 'rotate(180deg)' },
+        },
+        'sway': {
+          '0%, 100%': { transform: 'translateX(-15px)' },
+          '50%': { transform: 'translateX(15px)' },
+        },
+        'drift': {
+          '0%, 100%': { transform: 'translate(0, 0) scale(1)' },
+          '25%': { transform: 'translate(20px, -30px) scale(1.1)' },
+          '50%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+          '75%': { transform: 'translate(30px, 10px) scale(1.05)' },
         },
       },
     },
