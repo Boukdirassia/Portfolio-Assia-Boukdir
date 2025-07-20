@@ -71,6 +71,8 @@ module.exports = {
         'glow': 'glow 2s ease-in-out infinite alternate',
         'gradient': 'gradient 15s ease infinite',
         'shimmer': 'shimmer 2.5s linear infinite',
+        'float-fade': 'float-fade 10s ease-in-out infinite',
+        'text-glow': 'text-glow 4s ease-in-out infinite',
       },
       keyframes: {
         fadeIn: {
@@ -108,6 +110,14 @@ module.exports = {
         shimmer: {
           '0%': { backgroundPosition: '-200% 0' },
           '100%': { backgroundPosition: '200% 0' },
+        },
+        'float-fade': {
+          '0%, 100%': { opacity: '0', transform: 'translateY(0px)' },
+          '50%': { opacity: '0.7', transform: 'translateY(-20px)' },
+        },
+        'text-glow': {
+          '0%, 100%': { 'text-shadow': '0 0 10px rgba(255, 255, 255, 0.3)' },
+          '50%': { 'text-shadow': '0 0 20px rgba(255, 255, 255, 0.6)' },
         },
       },
     },
