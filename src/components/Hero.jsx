@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaCode, FaRocket } from 'react-icons/fa';
+import assiaImage from './Pictures/assia.jpg';
 
 const Hero = () => {
   return (
@@ -27,11 +28,7 @@ const Hero = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-8">
-              {/* Badge */}
-              <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm border border-blue-500/20 rounded-full px-4 py-2 animate-fade-in-up">
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-sm text-gray-300">Available for work</span>
-              </div>
+
 
               {/* Main Heading */}
               <div className="space-y-4">
@@ -115,7 +112,7 @@ const Hero = () => {
                   <FaLinkedin className="w-6 h-6" />
                 </a>
                 <a 
-                  href="mailto:assiabk12345@gmail.com"
+                  href="mailto:Boukdirassia@gmail.com"
                   className="group p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 text-gray-400 hover:text-white hover:bg-gradient-to-r hover:from-blue-500/20 hover:to-purple-500/20 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:border-blue-500/30"
                 >
                   <FaEnvelope className="w-6 h-6" />
@@ -134,7 +131,7 @@ const Hero = () => {
                     <div className="relative group">
                       <div className="absolute -inset-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur opacity-75 group-hover:opacity-100 animate-pulse transition duration-1000"></div>
                       <img 
-                        src="./public/pictures/assia.jpg" 
+                        src={assiaImage} 
                         alt="Assia Boukdir" 
                         className="relative w-64 h-64 rounded-full object-cover border-4 border-white/20 shadow-2xl transform group-hover:scale-105 transition-all duration-500"
                       />

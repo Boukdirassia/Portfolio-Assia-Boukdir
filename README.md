@@ -67,7 +67,7 @@ This website is live and accessible online on vercel for easy viewing and sharin
 ## 📞 Contact
 
 - **Email**: Boukdirassia@gmail.com  
-- **LinkedIn**: [linkedin.com/in/assia-boukdir-2aba11219/](https://www.linkedin.com/inassia-boukdir-2aba11219/)  
+- **LinkedIn**: [linkedin.com/in/assia-boukdir-2aba11219/](https://www.linkedin.com/in assia-boukdir-2aba11219/)  
 - **GitHub**: [github.com/Boukdirassia](https://github.com/Boukdirassia)  
 
 ---
