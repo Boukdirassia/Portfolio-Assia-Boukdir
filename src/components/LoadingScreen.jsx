@@ -5,7 +5,6 @@ const languages = [
   'Bienvenue',
   'مرحبا',
   'Bienvenido',
-  'Willkommen',
   'ようこそ',
   '欢迎',
 ];
@@ -27,7 +26,7 @@ const LoadingScreen = () => {
         });
         setShow(true);
       }, 500); // Time for fade-out animation
-    }, 850); // Change language every 0.9 seconds
+    }, 900); // Change language every 0.9 seconds
 
     return () => clearInterval(languageInterval);
   }, []);
