@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaCode, FaRocket } from 'react-icons/fa';
-import assiaImage from './Pictures/assia.jpg';
+import assiaImage from './pictures/assia.jpg';
 
 const Hero = () => {
   return (
